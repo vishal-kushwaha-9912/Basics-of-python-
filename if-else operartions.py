@@ -1,6 +1,15 @@
-# IF-ELSE operation is used to 
+# if and else are conditional statements used to make decisions in a program.
 
-# LOGIN PAGE
+ # if: Executes a block of code when a condition is True.
+ 
+#  else: Executes a block of code when the if condition is False.
+
+#elif stands for "else if".
+#It is used to check multiple conditions after an if statement. If the if condition is False, Python checks the elif condition.
+
+
+
+                                  # LOGIN PAGE
 
  # correct gmail : vishalk4455@gmail.com
  # correct password : 445566vishu
