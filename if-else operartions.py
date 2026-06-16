@@ -9,7 +9,7 @@
 
 
 
-                                  # LOGIN PAGE
+                                   # LOGIN PAGE
 
  # correct gmail : vishalk4455@gmail.com
  # correct password : 445566vishu
@@ -27,8 +27,6 @@ if '@' in email :
           print("finally correct ")
       else :
           print ("still incorrect password")
-       
- 
-    
+
 else :
       print ( "incorrect deatails")
