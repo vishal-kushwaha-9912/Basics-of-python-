@@ -19,6 +19,14 @@
 #Menu-driven programs.
 #Counting and iteration when the number of repetitions is not known beforehand.
 
+ #### USED OF WHILE LOOP AND FOR LOOP <<<<<<<<<<<<<<<<EASY TO REMAMBER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+    ### Many students get confused about when to use a for loop and a while loop.
+   # The simple rule is that if the number of repetitions or the time period of the loop is already given or known, then use a **for loop**. 
+     # However, if the number of repetitions is not given and the loop depends on a condition, then use a **while loop**.
+   # In short, **known number of repetitions = for loop**, and **unknown number of repetitions (condition-based) = while loop**.
+
 
 number = int(input("Enter the number : "))
 i =1
