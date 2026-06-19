@@ -47,14 +47,14 @@ OUTPUT :: [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 list(range(12,0,-2))   
 
-Output ::[12 , 10, 8, 6 , 4 , 2]
+# Output ::[12 , 10, 8, 6 , 4 , 2]
 
 
 
-How Python  ::
-Start = 12
-Stop = 0 (0 is not included)
-Step = -2 (go backwards by 2)
+# How Python  ::
+# Start = 12
+# Stop = 0 (0 is not included)
+# Step = -2 (go backwards by 2)
 
 
 ### SEQUENCE 
@@ -63,4 +63,11 @@ numbers = [10, 20, 30, 40]
 
 
 ###list 
-State =["uttarpradesh", "bihar", "assam", "gujrat"]
+State =["uttarpradesh", "bihar", "assam", "gujarat"]
+
+
+
+List → [1, 2, 3]
+String → "Python"
+Tuple → (1, 2, 3)
+Range → range(5)
