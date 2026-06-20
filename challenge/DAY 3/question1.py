@@ -1,4 +1,4 @@
-# Question 2: For Loop + If-Else (Medium)
+# Question 1: For Loop + If-Else (Medium)
 # Find prime numbers
 
 # Write a program that finds and prints all prime numbers between 1 and 20.
@@ -14,4 +14,5 @@ for x in range(2,21):
     if is_prime:
         print(x)    
     
+         
          
