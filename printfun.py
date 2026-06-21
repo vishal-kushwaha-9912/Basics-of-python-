@@ -44,3 +44,6 @@ print("vishal kushwaha")
 # end is basicly used to print in same line with any space or symbol.
 print("hello ", end="")
 print("world is here to learn python")
+
+# ou can print each value on a new line in several ways.
+print("india", 5.6, 9, True, "vishal kushwaha", 4.99694, sep="\n")
