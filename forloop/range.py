@@ -57,7 +57,7 @@
 # # Step = -2 (go backwards by 2)
 
 
-# ### SEQUENCE 
+""""SEQUENCE""" 
 
 # numbers = [10, 20, 30, 40]
 
