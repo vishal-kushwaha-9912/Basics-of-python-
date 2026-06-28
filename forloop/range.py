@@ -199,6 +199,13 @@ colors = ("Red", "Blue", "Red", "Green")
 
 
 
+| List              | Tuple                |
+| ----------------- | -------------------- |
+| **Mutable**       | **Immutable**        |
+| Can add items     | Cannot add items     |
+| Can remove items  | Cannot remove items  |
+| Can replace items | Cannot replace items |
+| Uses `[]`         | Uses `()`            |
 
 '''
 Quick Summary
