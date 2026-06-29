@@ -1,55 +1,141 @@
-
-# 1. **Pattern Printing – Pyramid of Numbers**:
-# 
-# Print a number pyramid where each row contains numbers from 1 up to the row number, 
-# and the pyramid is centered using spaces (e.g., for 5 rows, row 3 looks like `  1 2 3`).
-
-
-
-# 2. **Diamond Star Pattern**:
-# Print a diamond shape made of stars (`*`), where the user inputs the number of rows for the upper half.
+# Advanced Level
+# 21. Print a right-aligned triangle.
+#     *
+#    **
+#   ***
+#  ****
+# *****
 
 
 
-# 3. **Prime Numbers in a Range**:
-# Given two numbers `a` and `b`, print all prime numbers between them using nested for loops 
-# (outer loop for numbers, inner loop for checking divisibility).
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
-# 4. **Armstrong Numbers in a Range**:
-# Find and print all Armstrong numbers (numbers equal to the sum of their digits each raised to the power of the number of digits)
-# between 1 and 10,000.
+
+# 22. Print a pyramid.
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
-# 5. **Floyd's Triangle**:
-# Print Floyd's Triangle up to `n` rows, where the triangle contains consecutive natural numbers arranged in a right triangle starting from 1.
+
+
+# 23. Print an inverted pyramid.
+# *********
+#  *******
+#   *****
+#    ***
+#     *
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
-# 6. **Pascal's Triangle**:
-# Generate and print Pascal's Triangle up to `n` rows using nested loops (without using factorial functions, only loop logic).
+
+# 24. Print a diamond.
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+#  *******
+#   *****
+#    ***
+#     *
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+# 25. Print Floyd's Triangle.
+# 1
+# 2 3
+# 4 5 6
+# 7 8 9 10
+# 11 12 13 14 15
 
 
 
-# 7. **Spiral Matrix Printing**: 
-# Given an `n x n` matrix, print all its elements in spiral order (starting from top-left, moving right, then down, then left, then up).
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+# 26. Print Pascal's Triangle.
+#         1
+#       1 1
+#     1 2 1
+#   1 3 3 1
+# 1 4 6 4 1
 
 
 
-# 8. **Sum of Digits Until Single Digit (Digital Root)**:
-# Using only loops (no recursion), reduce a number to a single digit by repeatedly summing its digits, and print each intermediate step.
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+# 27. Print a hollow square.
+# *****
+# *   *
+# *   *
+# *   *
+# *****
 
 
 
-# 9. **Pattern with Alternating Characters**:
-# Print a square or rectangular pattern where characters alternate between two symbols
-# (like a checkerboard pattern) using nested loops and conditional logic inside the loop.
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+# 28. Print a hollow rectangle.
+# *******
+# *     *
+# *     *
+# *******
 
 
 
-# 10. **Number Pattern with Reverse Counting**:
-# Print a pattern where each row first counts up from 1 to `n` and then counts back down to 1 (e.g., row 3 of 4 would look like `1 2 3 2 1`),
-# forming a butterfly or hourglass-like number pattern.
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+
+
+
+# 29. Print an X pattern.
+# *   *
+#  * *
+#   *
+#  * *
+# *   *
+
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+# 30. Print a chessboard pattern.
+# X O X O X O
+# O X O X O X
+# X O X O X O
+# O X O X O X
+# X O X O X O
+# O X O X O X
+
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+# 🏆 Bonus Challenge Questions
+# Print a hollow pyramid.
+# Print a butterfly pattern.
+# Print a sandglass pattern.
+# Print a spiral matrix (5×5).
+# Print a zig-zag pattern.
+# Print all possible 3-letter combinations (AAA to CCC) using three nested loops.
+# Create a simple seating chart (5 rows × 10 seats).
+# Print a calendar for one month using nested loops.
+# Simulate a tic-tac-toe board using nested loops.
+# Create a multiplication chart from 1 to 20.

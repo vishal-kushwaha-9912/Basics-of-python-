@@ -1,87 +1,135 @@
-# 🔴 Advanced Level
-# 21. Print this pattern.
+# 🟢 Beginner Level
+# 1. Print a 5 × 5 square of stars.
+# *****
+# *****
+# *****
+# *****
+# *****
+# 2. Print a 4 × 6 rectangle of #.
+# ######
+# ######
+# ######
+# ######
+# 3. Print numbers in a grid.
+# 1 2 3
+# 1 2 3
+# 1 2 3
+# 4. Print letters in a grid.
+# A B C
+# A B C
+# A B C
+# 5. Print coordinates.
+# (1,1)
+# (1,2)
+# (1,3)
+# (2,1)
+# (2,2)
+# (2,3)
+# (3,1)
+# (3,2)
+# (3,3)
+# 6. Print this pattern.
+# 11111
+# 22222
+# 33333
+# 44444
+# 55555
+# 7. Print this pattern.
+# 12345
+# 12345
+# 12345
+# 12345
+# 12345
+# 8. Print a multiplication grid (1–5).
+# 1 2 3 4 5
+# 2 4 6 8 10
+# 3 6 9 12 15
+# 4 8 12 16 20
+# 5 10 15 20 25
+# 9. Print all pairs of numbers from 1 to 3.
+# 1 1
+# 1 2
+# 1 3
+# 2 1
+# 2 2
+# 2 3
+# 3 1
+# 3 2
+# 3 3
+# 10. Print the alphabet 5 times.
+# ABCDE
+# ABCDE
+# ABCDE
+# ABCDE
+# ABCDE
+# 🟡 Intermediate Level
+# 11. Print this triangle.
 # *
 # **
 # ***
 # ****
 # *****
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# 22. Print this pattern.
+# 12. Print the reverse triangle.
 # *****
 # ****
 # ***
 # **
 # *
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-# 23. Print this pattern.
+# 13. Print this number triangle.
 # 1
 # 12
 # 123
 # 1234
 # 12345
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-# 24. Print this pattern.
+# 14. Print this pattern.
 # 1
 # 22
 # 333
 # 4444
 # 55555
-
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-# 25. Print this pattern.
+# 15. Print this pattern.
 # A
 # AB
 # ABC
 # ABCD
 # ABCDE
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-# 26. Print the factorial of a number.
+# 16. Print this pattern.
+# A
+# BB
+# CCC
+# DDDD
+# EEEEE
+# 17. Print this pattern.
+# 54321
+# 54321
+# 54321
+# 54321
+# 54321
+# 18. Print this pattern.
+# 5
+# 54
+# 543
+# 5432
+# 54321
+# 19. Print all multiplication tables from 1 to 5.
 
 # Example:
 
-# 5! = 120
-# 27. Check if a number is prime.
-# 28. Print all prime numbers from 1 to 100.
-# 29. Count the frequency of each character in a string.
+# Table of 1
+# 1 × 1 = 1
+# ...
+# 1 × 10 = 10
 
-# Example:
-
-# banana
-
-# Output:
-
-# # b = 1
-# a = 3
-# n = 2
-
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-# 30. Create a star pyramid.
-#     *
-#    ***
-#   *****
-#  *******
-# *********
-
-#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-# 🎯 Challenge Questions
-# Print the first 20 Fibonacci numbers.
-# Find all Armstrong numbers from 1 to 1000.
-# Print Pascal's Triangle.
-# Create a simple loading animation using a for loop.
-# Create a progress bar (e.g., █████----- 50%) using a for loop.
+# Table of 2
+# 2 × 1 = 2
+# ...
+# 20. Print all combinations of letters.
+# AA
+# AB
+# AC
+# BA
+# BB
+# BC
+# CA
+# CB
+# CC
