@@ -12,6 +12,13 @@
 #z = x + y      # z is a float because the python interpreter converts the integer x to a float to perform the addition operation.
 #print(z)    # output: 13.14
 
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..
+
+
+
+
 #2 Explicit type conversion : it is a type conversion which is done by the programmer explicitly using the built-in functions.
 
 #example of explicit type conversion
