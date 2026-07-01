@@ -197,3 +197,37 @@
 # Exit → break
 # Store student names in a list.
 # Show all students when option 3 is selected.
+
+
+
+# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+# ⭐ Challenge Questions
+# Q19.
+
+# Print numbers from 1 to 50.
+
+# Skip multiples of 4
+# Stop if the number is divisible by 19
+
+
+
+
+
+# Q20.
+
+# Write a simple ATM menu using a while loop.
+
+# Menu:
+
+# 1. Deposit
+# 2. Withdraw
+# 3. Balance
+# 4. Exit
+
+# Requirements:
+
+# If the user enters an invalid option, use continue.
+# If the user selects 4, use break.
+# Use pass in a placeholder for a future Transfer Money feature.
