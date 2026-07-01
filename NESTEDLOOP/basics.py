@@ -43,7 +43,7 @@ for i in range (1, row+1):  # this line means the range(1 is starting , row+1 is
 
 # range(0,i ) is  define the number of star '*' print .
 # if row is first then the number of the print star is " 1 " 
-
+# if row is SECOND then the number of the print star is " 2 " 
 # range(0, 1)  →  0          →  loops 1 time     (if number of row is 1 )
 # range(0, 2)  →  0, 1       →  loops 2 times
 # range(0, 3)  →  0, 1, 2    →  loops 3 times
@@ -53,6 +53,7 @@ for i in range (1, row+1):  # this line means the range(1 is starting , row+1 is
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
+# Question 2
 
 ''' Print a decreasing triangle'''
 
@@ -104,6 +105,7 @@ for i in range (5,0,-1):
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
  
  
+# Question 3
  
  
 """ A QUESTION  :: WHAT ❌  IN THIS CODE"""
