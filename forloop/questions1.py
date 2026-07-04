@@ -5,10 +5,13 @@
 # ***
 # ****
 # *****
-# for x in range(1,7):
-#     for y in range(1,x):
-#         print("*",end=" ")
-#     print()
+'''
+ for x in range(1,7):
+     for y in range(1,x):
+         print("*",end=" ")
+     print()'''
+
+
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # 22. Print this pattern.
 # *****
@@ -17,11 +20,13 @@
 # **
 # *
 
-
+'''
 # for x in range(6,1,-1):
 #     for y in range(1,x):
 #         print("*",end=" ")
-#     print()
+#     print()'''
+
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
@@ -31,11 +36,13 @@
 # 123
 # 1234
 # 12345
-
+'''
 # for x in range(1,6):
 #     for y in range(1,x+1):
 #         print(y,end=" ")
-#     print()
+#     print()'''
+
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 # 24. Print this pattern.
@@ -44,11 +51,13 @@
 # 333
 # 4444
 # 55555
-
+'''
 # for x in range(1,6):
 #     for y in range(0,x):
 #         print(x,end=" ")
-#     print()
+#     print()'''
+
+
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -58,22 +67,25 @@
 # ABC
 # ABCD
 # ABCDE
-
+'''
 for x in range(1,6):
     for y in range(0,x):
         print(chr(y+65),end="")
     print()
-    
-    
-# Logic to remember
+    '''
 
-# For alphabet patterns:
 
-# chr(65 + y) → Prints A B C D...
-# chr(97 + y) → Prints a b c d...
-# Pattern Formula
-# Print increasing alphabets: chr(65 + y)
-# Print the same alphabet repeatedly: chr(64 + x)
+
+'''
+Logic to remember
+
+For alphabet patterns:
+
+chr(65 + y) → Prints A B C D...
+chr(97 + y) → Prints a b c d...
+Pattern Formula
+Print increasing alphabets: chr(65 + y)
+Print the same alphabet repeatedly: chr(64 + x)'''
 
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -84,6 +96,19 @@ for x in range(1,6):
 # Example:
 
 # 5! = 120
+
+'''
+user = int(input("Enter the number of factorial : "))
+result = 1
+for x in range(1,user+1):
+    result = result * x
+print(f"Factorial :  :{result}")
+
+'''
+
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 # 27. Check if a number is prime.
 # 28. Print all prime numbers from 1 to 100.
 # 29. Count the frequency of each character in a string.
@@ -108,7 +133,16 @@ for x in range(1,6):
 #   *****
 #  *******
 # *********
-
+'''
+for x in range(1,6):
+    space = 5- x
+    for y in range(0,space):
+     print("", end= " ")
+    for y in range(0,x):
+     print("*", end=" ")
+    print()
+'''
+# space = number of rows- row:
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
