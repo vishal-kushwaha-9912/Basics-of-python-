@@ -32,7 +32,7 @@ The goal of this project is to improve programming skills step by step while lea
 This repository is helpful for:
 
 * Beginners learning Python
-* Students preparing for coding interviews
+
 * Anyone starting programming for the first time
 
 ## How to Run the Programs
@@ -62,7 +62,7 @@ I will continue adding:
 
 ## Author
 
-Created by Vishal Kushwaha
+Created by Vishal Kushwaha (❁´◡`❁)
 
 ## Contributions
 
