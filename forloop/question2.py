@@ -4,7 +4,32 @@
 # Print a number pyramid where each row contains numbers from 1 up to the row number, 
 # and the pyramid is centered using spaces (e.g., for 5 rows, row 3 looks like `  1 2 3`).
 
+for x in range(1,6):
+    space = 5-x
+    for y in range(0,space):
+        print(" ",end="")
+    for y in range(1,x+1):
+         print(y,end=" ")
+    print()
 
+
+
+# for x in range(1,6):
+#     space = 5-x
+#     for y in range(0, space):
+#         print(" ",end="")
+#     for y in range(0,x):
+#          print("*",end=" ")
+#     print()
+"""    OUTPUT:: 
+         
+    *
+   * *
+  * * *
+ * * * *
+* * * * * 
+
+"""
 
 # 2. **Diamond Star Pattern**:
 # Print a diamond shape made of stars (`*`), where the user inputs the number of rows for the upper half.
