@@ -7,6 +7,16 @@
 
 # Print "Found" and stop searching.
 
+
+# numbers = [10, 15, 20, 25, 30, 35]
+# for number in numbers:
+#     if number == 25:
+#           break
+   
+#     print(number)
+   
+
+
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 # Q2.
@@ -23,6 +33,22 @@
 
 # Print "Correct!"
 # Stop the loop.
+
+#output ::
+secret =17
+
+
+user = int(input("Enter the number :"))
+while user != secret :
+    if user <secret:
+        print("guess higher ")
+    else:
+        print ("guess lower")
+    
+    user =int( input("guess the number : ")) 
+  
+print (" correct guess")       
+
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
