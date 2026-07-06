@@ -8,12 +8,12 @@
 # Print "Found" and stop searching.
 
 
-# numbers = [10, 15, 20, 25, 30, 35]
-# for number in numbers:
-#     if number == 25:
-#           break
+numbers = [10, 15, 20, 25, 30, 35]
+for number in numbers:
+    if number == 25:
+          break
    
-#     print(number)
+    print(number)
    
 
 
@@ -34,7 +34,9 @@
 # Print "Correct!"
 # Stop the loop.
 
-#output ::
+# #output ::
+
+
 secret =17
 
 
@@ -63,6 +65,14 @@ print (" correct guess")
 # Skip all even numbers.
 # Stop when the number becomes 75.
 
+for x in range(1,101):
+    if x%2 == 0:
+        continue
+    
+    if x == 75:
+       break
+    print(x)
+
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -73,6 +83,13 @@ print (" correct guess")
 # "Data Science"
 # Skip all spaces.
 # Stop when you reach "S".
+
+for x in " Data Science":
+    if x == " ":
+        continue
+    if x == "S" :
+        break
+    print(x)
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -85,6 +102,23 @@ print (" correct guess")
 # Ignore all negative numbers.
 # Stop when the user enters 999.
 # Store only valid numbers in a list.
+
+number =[]
+while True:
+    user = int(input("Enter the number : " ))
+    if user < 0 :
+        continue
+    if user == 999:
+        break
+    number.append(user)
+print("Valid number : ", number)
+
+
+
+
+
+
+
 # 🔴 Level 3 – Better Logic
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -95,7 +129,20 @@ print (" correct guess")
 
 # Store only even numbers.
 
-# Print the final list.
+# Print the final list. >>
+
+number =[]
+while True:
+    user = int(input("Enter the number :"))
+   
+    if user == 0:
+        number.append(user)
+        break
+    if user % 2 != 0:
+        continue
+    number.append(user)
+print(f"final list {number}")
+        
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 # Q7.
@@ -122,59 +169,32 @@ print (" correct guess")
 
 # Skip all others.
 
-# 🔥 Level 4 – Nested Loops
+number = []
+for x in range(10):
+    user = int(input("Enter the number :"))
+    if user % 5 == 0 :
+        number.append(user)
+    else :
+        continue
+print(f"Number : {number}")
+
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+# 🔥 Level 4 – Nested Loops
+
 
 # Q9.
 
 # Print multiplication tables from 1 to 5.
 
 # Stop printing the current table when multiplication reaches 7.
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-# Q10.
-
-# Print this pattern:
-
-# 1
-# 12
-# 123
-# 1234
-# 12345
-
-# Skip the number 3 everywhere.
-
-# Expected output:
-
-# 1
-# 12
-# 12
-# 124
-# 1245
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-# 🏆 Level 5 – Mini Projects
-# Q11.
-
-# ATM Menu
-
-# 1. Deposit
-# 2. Withdraw
-# 3. Balance
-# 4. Exit
-
-# Requirements:
-
-# Invalid option → continue
-# Exit → break
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 # Q12.
@@ -186,6 +206,7 @@ print (" correct guess")
 # Empty input → continue
 # "done" → break
 # Store all valid items in a list.
+
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -201,8 +222,7 @@ print (" correct guess")
 
 # Store only valid marks.
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -257,3 +277,6 @@ print (" correct guess")
 # If the user enters an invalid option, use continue.
 # If the user selects 4, use break.
 # Use pass in a placeholder for a future Transfer Money feature.
+
+
+
