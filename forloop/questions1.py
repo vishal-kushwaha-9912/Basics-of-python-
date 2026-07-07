@@ -119,7 +119,7 @@ print(f"Factorial :  :{result}")
 
 # Output:
 
-# # b = 1
+#  b = 1
 # a = 3
 # n = 2
 

@@ -7,6 +7,14 @@
 # *****
 
 
+for x in range (1,6):
+    space = 5-x
+    for y in range(0,space):
+        print("" , end=" ")
+    for y in range(0,x):
+        print("*",end="")
+    print()
+
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -19,6 +27,16 @@
 #   *****
 #  *******
 # *********
+
+
+
+for x in range (1,10):
+    space = 9 -x
+    for y in range(0, space):
+        print("",end=" ")
+    for y in range(1,x):
+        print("*",end=" ")
+    print()
 
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -34,6 +52,15 @@
 #    ***
 #     *
 
+
+
+for x in range (5,0,-1):
+    space = 5-x
+    for y in range(0,space):
+        print("",end=" ")
+    for y in range(0,x):
+        print("*",end=" ")
+    print()
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -51,6 +78,23 @@
 #    ***
 #     *
 
+
+
+for x in range (1,10,2):
+    space = (9-x) // 2
+    for y in range(space):
+        print(" ",end="")
+    for y in range(x):
+        print("*",end="")
+    print()
+
+for x in range (7,0,-2):
+    space = (9-x)//2
+    for y in range(space):
+        print(" ",end="")
+    for y in range(x):
+        print("*",end="")
+    print()
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
@@ -60,8 +104,12 @@
 # 4 5 6
 # 7 8 9 10
 # 11 12 13 14 15
-
-
+num = 1 
+for x in range(1,6):
+    for y in range(1,x+1):
+        print(num,end=" ")
+        num += 1
+    print()
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -139,3 +187,6 @@
 # Print a calendar for one month using nested loops.
 # Simulate a tic-tac-toe board using nested loops.
 # Create a multiplication chart from 1 to 20.
+
+""" check this file  PATTTERNS QUESTION """
+"""forloop/pyramidpattern.ipynb"""

@@ -1,4 +1,4 @@
-#COMMENT : it is a piece of code that is not executed by the executor and the interpreter. 
+# COMMENT : it is a piece of code that is not executed by the executor and the interpreter. 
 # It is used to explain the code and make it more readable. It can be a single line comment or a multi-line comment.
 
 # SINGLE LINE COMMENT : it is a comment that is written in a single line. It is defined by using the hash symbol #.

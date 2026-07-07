@@ -30,22 +30,22 @@ list() is used to convert the range object into a list
 
 # output : [0, 1, 2, 3]
   
-# # EXAMPLE 2:: 
+#  EXAMPLE 2:: 
 # list(range(1,6)) # range(start , stop) 
 
 # output : [1, 2, 3, 4 ,5]
     
-# #EXAMPLE 3:: 
+# EXAMPLE 3:: 
 """"Here, list() is used only to display all the values in the range object at once"""
 # list(range(1,10,2)) # range(start , stop , step)  # step = step means how much to jump each time. 
 
 # output : [1, 3, 5, 7, 9] jumped by 2 
 
-# # How it works 
+#  How it works 
 
-# # Start = 1
-# # Stop = 10 (10 is not included)
-# # Step = 2 (jump by 2)
+#  Start = 1
+#  Stop = 10 (10 is not included)
+#  Step = 2 (jump by 2)
          
          
 #          #NOTE :: WE CAN ALSO WRITE THE PRINT THE NUBER IN REVERSE 
@@ -55,21 +55,21 @@ list() is used to convert the range object into a list
 # OUTPUT :: [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 
-# # Explanation ::
-# # Start = 12
-# # Stop = 0 (0 is not included)
-# # Step = -1 (go backwards by 1)        
+#  Explanation ::
+#  Start = 12
+#  Stop = 0 (0 is not included)
+#  Step = -1 (go backwards by 1)        
 
 # list(range(12,0,-2))   
 
-# # Output ::[12 , 10, 8, 6 , 4 , 2]
+#  Output ::[12 , 10, 8, 6 , 4 , 2]
 
 
 
-# # How Python  ::
-# # Start = 12
-# # Stop = 0 (0 is not included)
-# # Step = -2 (go backwards by 2)
+#  How Python  ::
+#  Start = 12
+#  Stop = 0 (0 is not included)
+#  Step = -2 (go backwards by 2)
 
 
 """"SEQUENCE IN PYTHON""" 

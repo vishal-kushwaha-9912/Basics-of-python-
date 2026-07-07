@@ -49,7 +49,7 @@
 
 
 
-# #A for loop tells the robot:
+# A for loop tells the robot:
 
 # "Repeat this job again and again."
 

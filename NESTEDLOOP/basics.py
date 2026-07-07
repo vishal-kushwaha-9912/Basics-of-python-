@@ -19,7 +19,7 @@ for i in range (1, row+1):  # this line means the range(1 is starting , row+1 is
     print  ()    
    
    
-# #OUTPUT ::     
+# OUTPUT ::     
 # Enter the number of rows :    5
 
 
