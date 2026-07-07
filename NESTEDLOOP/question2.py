@@ -123,33 +123,6 @@ for x in range(1,6):
 
 
 
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-# 27. Print a hollow square.
-# *****
-# *   *
-# *   *
-# *   *
-# *****
-
-
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-# 28. Print a hollow rectangle.
-# *******
-# *     *
-# *     *
-# *******
-
-
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-
 
 # 29. Print an X pattern.
 # *   *
@@ -184,8 +157,6 @@ for x in range(1,6):
 # Print a zig-zag pattern.
 # Print all possible 3-letter combinations (AAA to CCC) using three nested loops.
 # Create a simple seating chart (5 rows × 10 seats).
-# Print a calendar for one month using nested loops.
-# Simulate a tic-tac-toe board using nested loops.
 # Create a multiplication chart from 1 to 20.
 
 """ check this file  PATTTERNS QUESTION """
