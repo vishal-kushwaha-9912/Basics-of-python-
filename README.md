@@ -10,7 +10,7 @@ This is **not just code** — it's a structured learning path with:
 ✅ **Concept Breakdowns** — Individual files for each Python concept  
 ✅ **Hands-On Practice** — Problems ranging from basic to intermediate  
 ✅ **Interactive Notebooks** — `.ipynb` files for exploratory learning  
-✅ **Beginner-Friendly** — Written with clear explanations and comments  
+✅ **Beginner-Friendly** — Written with clear explanations and comments
 
 The goal: **Build solid Python fundamentals through consistent practice and deep understanding.**
 
@@ -61,19 +61,25 @@ PYTHON/
 ## 🚀 Learning Path Overview
 
 ### **Phase 1: Foundations** (Days 1-2)
+
 Master the absolute basics:
+
 - Variables and data types (int, float, string, bool)
 - Input/Output basics
 - Conditional logic (if/else/elif)
 
 ### **Phase 2: Control Flow** (Days 3-5)
+
 Learn to control program execution:
+
 - Loops (for, while, nested)
 - Pattern printing & logic problems
 - Function basics and reusability
 
 ### **Phase 3: Deep Concepts** (Individual Files)
+
 Expand your toolkit:
+
 - String manipulation and formatting
 - Type conversion and casting
 - Keywords and best practices
@@ -82,24 +88,25 @@ Expand your toolkit:
 
 ## 💡 Topic Breakdown
 
-| Concept | Files | Difficulty |
-|---------|-------|-----------|
-| **Variables & Types** | `variable.py`, `datatypes.py` | Beginner |
-| **Input/Output** | `userinput6.py`, `PRINT.py` | Beginner |
-| **Operators** | `operators.py`, `if-else_operations.py` | Beginner |
-| **Conditionals** | `conditionals.py`, `if-else operations.py` | Beginner |
-| **for Loops** | `forloop.ipynb`, `forloop.py` | Beginner → Intermediate |
-| **while Loops** | `whileloop.py` | Beginner → Intermediate |
-| **Nested Loops** | `nestedloop.ipynb`, `NESTLEDLOOP/` | Intermediate |
-| **Functions** | `FUNCTIONS/` directory | Intermediate |
-| **Strings** | `STRINGS/`, `formattedstring.ipynb` | Intermediate |
-| **Keywords & Logic** | `keywords.py`, `statement.ipynb` | Beginner |
+| Concept               | Files                                      | Difficulty              |
+| --------------------- | ------------------------------------------ | ----------------------- |
+| **Variables & Types** | `variable.py`, `datatypes.py`              | Beginner                |
+| **Input/Output**      | `userinput6.py`, `PRINT.py`                | Beginner                |
+| **Operators**         | `operators.py`, `if-else_operations.py`    | Beginner                |
+| **Conditionals**      | `conditionals.py`, `if-else operations.py` | Beginner                |
+| **for Loops**         | `forloop.ipynb`, `forloop.py`              | Beginner → Intermediate |
+| **while Loops**       | `whileloop.py`                             | Beginner → Intermediate |
+| **Nested Loops**      | `nestedloop.ipynb`, `NESTLEDLOOP/`         | Intermediate            |
+| **Functions**         | `FUNCTIONS/` directory                     | Intermediate            |
+| **Strings**           | `STRINGS/`, `formattedstring.ipynb`        | Intermediate            |
+| **Keywords & Logic**  | `keywords.py`, `statement.ipynb`           | Beginner                |
 
 ---
 
 ## 🛠️ Getting Started
 
 ### **Prerequisites**
+
 - Python 3.8 or higher installed
 - VS Code (recommended) or any Python IDE
 - Text editor for reading/writing code
@@ -144,6 +151,7 @@ jupyter notebook
 ## 📖 Suggested Learning Order
 
 ### **Option 1: Follow the 5-Day Challenge** (Recommended for Beginners)
+
 1. Complete `challenge/DAY 1/` — Learn variables, types, and I/O
 2. Complete `challenge/DAY 2/` — Master conditionals
 3. Complete `challenge/DAY 3/` — Understand for and while loops
@@ -151,6 +159,7 @@ jupyter notebook
 5. Complete `challenge/DAY 5/` — Build functions and solve problems
 
 ### **Option 2: Concept-by-Concept Deep Dive**
+
 1. `variable.py` → Understand what variables are
 2. `datatypes.py` → Learn different data types
 3. `conditionals.py` → Master if/else logic
@@ -159,6 +168,7 @@ jupyter notebook
 6. Continue with other concept files
 
 ### **Option 3: Project-Based Learning**
+
 1. Start with `guessing_game/` — Build something fun
 2. Work backwards to understand required concepts
 3. Expand with `MINI_PROJECT/`
@@ -168,6 +178,7 @@ jupyter notebook
 ## 🎯 Daily Practice Challenges
 
 Each day in the **challenge** folder includes:
+
 - **Concept explanation** — New topic for the day
 - **Example code** — Working examples you can run
 - **Practice Questions** — Problems to solve independently
@@ -175,63 +186,78 @@ Each day in the **challenge** folder includes:
 
 ### **Challenge Structure by Day:**
 
-#### **DAY 1: Variables & Data Types** 
+#### **DAY 1: Variables & Data Types**
+
 Questions focus on:
+
 - Variable declaration and assignment
 - Data type understanding
 - Input/output operations
 - Type conversion basics
 
-*Example questions:*
+_Example questions:_
+
 - Create variables for your personal info and display them
 - Take 3 numbers as input and find their average
 - Convert temperature from Celsius to Fahrenheit
 
 #### **DAY 2: Conditionals & Logic**
+
 Questions focus on:
+
 - if/elif/else statements
 - Logical operators (and, or, not)
 - Comparison operators
 - Decision-making programs
 
-*Example questions:*
+_Example questions:_
+
 - Check if a number is positive, negative, or zero
 - Determine if a year is a leap year
 - Grade calculator based on marks
 
 #### **DAY 3: Introduction to Loops**
+
 Questions focus on:
+
 - for loops and range()
 - while loops
 - Loop control (break, continue)
 - Basic iteration patterns
 
-*Example questions:*
+_Example questions:_
+
 - Print numbers 1 to N
 - Find the factorial of a number
 - Print multiplication table
 
 #### **DAY 4: Nested Loops & Patterns**
+
 Questions focus on:
+
 - Nested for loops
 - Pattern printing (stars, numbers, etc.)
 - 2D loop structures
 - Complex iteration
 
-*Example questions:*
+_Example questions:_
+
 - Print pyramid pattern
 - Print hollow rectangle
 - Print diamond shape
 - Multiplication table grid
 
 #### **DAY 5: Functions & Problem Solving**
+
 Questions focus on:
+
 - Function definition and return values
 - Parameters and arguments
 - Scope and variable lifetime
 - Applying all previous concepts
 
-*Example questions:*
+_Example questions:_
+
 - Create a function to check if a number is prime
 - Function to calculate sum of digits
 - Create a simple calculator with functions
@@ -256,7 +282,7 @@ Questions focus on:
 ✅ **Experiment** — Modify solutions to see what happens  
 ✅ **Time yourself** — Practice under time constraints  
 ✅ **Track progress** — Mark questions as completed  
-✅ **Revisit** — Come back to harder problems later  
+✅ **Revisit** — Come back to harder problems later
 
 ### **Difficulty Progression:**
 
@@ -270,13 +296,13 @@ Questions focus on:
 
 ## 📝 Practice Question Bank
 
-| Day | Topic | Easy | Medium | Hard |
-|-----|-------|------|--------|------|
-| **DAY 1** | Variables & I/O | 3-5 | 2-3 | 1-2 |
-| **DAY 2** | Conditionals | 3-4 | 2-3 | 1-2 |
-| **DAY 3** | Loops | 3-4 | 2-3 | 1-2 |
-| **DAY 4** | Nested Loops | 2-3 | 2-3 | 2-3 |
-| **DAY 5** | Functions | 3-4 | 2-3 | 1-2 |
+| Day       | Topic           | Easy | Medium | Hard |
+| --------- | --------------- | ---- | ------ | ---- |
+| **DAY 1** | Variables & I/O | 3-5  | 2-3    | 1-2  |
+| **DAY 2** | Conditionals    | 3-4  | 2-3    | 1-2  |
+| **DAY 3** | Loops           | 3-4  | 2-3    | 1-2  |
+| **DAY 4** | Nested Loops    | 2-3  | 2-3    | 2-3  |
+| **DAY 5** | Functions       | 3-4  | 2-3    | 1-2  |
 
 **Total Practice Questions: 25-30+ problems to solve**
 
@@ -293,30 +319,33 @@ Questions focus on:
 
 ## ✨ What Makes This Repository Special
 
-🎓 **Self-Explanatory Code** — Each file includes comments explaining the *why* behind the code  
+🎓 **Self-Explanatory Code** — Each file includes comments explaining the _why_ behind the code  
 💭 **Beginner Mindset** — Complex concepts explained with analogies  
 📈 **Progressive Difficulty** — Build confidence from simple to challenging  
 🎯 **Real Problem-Solving** — Mini projects that apply theory  
 🔬 **Interactive Learning** — Jupyter notebooks for hands-on experimentation  
-📝 **Clear Documentation** — README files in folders guide you  
+📝 **Clear Documentation** — README files in folders guide you
 
 ---
 
 ## 🎓 Comprehensive Topics List
 
 ### **Fundamentals**
+
 - Variables & naming conventions
 - Data Types (int, float, str, bool)
 - Type conversion & casting
 - Comments & code documentation
 
 ### **Control Flow**
+
 - Conditional Statements (if/elif/else)
 - Logical Operators (and, or, not)
 - Comparison Operators (==, !=, <, >, <=, >=)
 - Ternary operators
 
 ### **Loops & Iteration**
+
 - for loops & the range() function
 - while loops
 - break and continue statements
@@ -324,6 +353,7 @@ Questions focus on:
 - Pattern printing exercises
 
 ### **Functions**
+
 - Function definition and calling
 - Parameters & arguments
 - Return values
@@ -331,12 +361,14 @@ Questions focus on:
 - Best practices
 
 ### **Data Structures Intro**
+
 - Strings & string methods
 - String formatting
 - Basic introduction to lists
 - Introduction to dictionaries
 
 ### **Keywords & Concepts**
+
 - Python reserved keywords
 - Indentation rules
 - pass statement
@@ -385,19 +417,23 @@ Track your progress:
 ## 🐛 Troubleshooting
 
 ### **"ModuleNotFoundError: No module named..."**
+
 ```bash
 pip install <module_name>
 ```
 
 ### **"IndentationError"**
+
 - Python requires consistent indentation (4 spaces recommended)
 - Check that all code blocks are properly indented
 
 ### **"NameError: name 'x' is not defined"**
+
 - Make sure you've defined the variable before using it
 - Check for typos in variable names (Python is case-sensitive)
 
 ### **Programs not running?**
+
 - Ensure Python is installed: `python --version`
 - Check file path and name are correct
 - Make sure file has `.py` extension
@@ -435,6 +471,7 @@ Feel free to use, modify, and share with proper credit.
 ## 🌟 Show Your Support
 
 If this learning path helped you:
+
 - ⭐ Star this repository
 - 📤 Share it with fellow beginners
 - 💬 Leave feedback or suggestions
@@ -445,6 +482,7 @@ If this learning path helped you:
 ## 🚀 What's Next?
 
 After mastering these fundamentals, explore:
+
 - 🔹 Data Structures & Algorithms
 - 🔹 Object-Oriented Programming (OOP)
 - 🔹 File Handling & Modules
@@ -483,4 +521,4 @@ def greet(name):
 
 ---
 
-*Consistency beats intensity. Code a little every day. Happy Learning! 🐍✨*
+_Consistency beats intensity. Code a little every day. Happy Learning! 🐍✨_
