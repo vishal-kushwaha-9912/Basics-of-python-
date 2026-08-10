@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 #### Documentation
+
 - ✨ Complete professional README with badges and table of contents
 - ✨ SETUP.md with detailed environment configuration guide
 - ✨ QUICK_START.md for 5-minute quick start
@@ -21,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ✨ .gitignore for Python projects
 
 #### Repository Structure
+
 - 📁 Organized concept files in root directory
 - 📁 Separated data structure tutorials (STRINGS, LIST, TUPLES, Sets)
 - 📁 Created dedicated FUNCTIONS directory
@@ -28,6 +30,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 📁 Improved project organization
 
 #### Content Improvements
+
 - 📝 Enhanced comments and explanations in all core files
 - 📝 Added real-world examples
 - 📝 Improved code formatting and consistency
@@ -35,6 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 📝 Added learning tips throughout
 
 #### Learning Resources
+
 - 🎓 5-Day Challenge with clear learning objectives
 - 🎓 Practice problems categorized by difficulty
 - 🎓 Mini-projects (guessing_game, MINI_PROJECT)
@@ -99,6 +103,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Initial release with:
 
 #### Core Concept Files
+
 - ✨ datatypes.py
 - ✨ operators.py
 - ✨ conditionals.py
@@ -112,6 +117,7 @@ Initial release with:
 - ✨ typeconversion.py
 
 #### Directories
+
 - 📁 challenge/ (5-Day Learning Challenge)
 - 📁 forloop/
 - 📁 FUNCTIONS/
@@ -126,6 +132,7 @@ Initial release with:
 - 📁 MINI_PROJECT/
 
 #### Documentation
+
 - 📖 Initial README.md
 - 📖 Basic structure and organization
 
@@ -150,6 +157,7 @@ Initial release with:
 ### Roadmap
 
 #### v2.1.0 (Q4 2026)
+
 - [ ] Add interactive quizzes
 - [ ] Create video walkthrough links
 - [ ] Add automated testing examples
@@ -157,6 +165,7 @@ Initial release with:
 - [ ] Add difficulty badges
 
 #### v2.2.0 (Q1 2027)
+
 - [ ] Add object-oriented programming basics
 - [ ] Introduce file handling
 - [ ] Add exception handling tutorial
@@ -164,6 +173,7 @@ Initial release with:
 - [ ] Add performance optimization section
 
 #### v3.0.0 (Mid 2027)
+
 - [ ] Complete OOP coverage
 - [ ] Data structures deep-dive
 - [ ] Algorithm basics
@@ -184,12 +194,12 @@ Initial release with:
 
 ## Version History Summary
 
-| Version | Date | Status | Highlights |
-|---------|------|--------|-----------|
-| 2.0.0 | Aug 2026 | Current | Professional structure, docs |
-| 1.5.0 | Jun 2026 | Archived | Interactive notebooks |
-| 1.0.0 | Apr 2026 | Archived | Initial release |
-| 0.5.0 | Jan 2026 | Archived | Foundation |
+| Version | Date     | Status   | Highlights                   |
+| ------- | -------- | -------- | ---------------------------- |
+| 2.0.0   | Aug 2026 | Current  | Professional structure, docs |
+| 1.5.0   | Jun 2026 | Archived | Interactive notebooks        |
+| 1.0.0   | Apr 2026 | Archived | Initial release              |
+| 0.5.0   | Jan 2026 | Archived | Foundation                   |
 
 ---
 
@@ -232,6 +242,7 @@ pip install pylint     # For code linting
 ## Contributors
 
 This changelog is maintained by:
+
 - **Vishal Kushwaha** — Repository Creator & Maintainer
 - **Community Contributors** — See [CONTRIBUTING.md](CONTRIBUTING.md)
 
@@ -239,11 +250,11 @@ This changelog is maintained by:
 
 ## Support for Previous Versions
 
-| Version | Support Status | Notes |
-|---------|---|---|
-| 2.0.0 | ✅ Active | Latest version |
-| 1.5.0 | ⚠️ Limited | Security updates only |
-| 1.0.0 | ❌ Ended | Please upgrade |
+| Version | Support Status | Notes                 |
+| ------- | -------------- | --------------------- |
+| 2.0.0   | ✅ Active      | Latest version        |
+| 1.5.0   | ⚠️ Limited     | Security updates only |
+| 1.0.0   | ❌ Ended       | Please upgrade        |
 
 ---
 

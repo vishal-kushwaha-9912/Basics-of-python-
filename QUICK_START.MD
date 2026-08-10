@@ -57,35 +57,41 @@ jupyter notebook
 ## 📚 What to Learn First
 
 ### Path 1: 5-Day Challenge (Recommended) ⭐
+
 ```
 challenge/DAY 1/ → DAY 2/ → DAY 3/ → DAY 4/ → DAY 5/
 ```
+
 **Time:** 10-15 hours | **Covers:** Everything you need
 
 ### Path 2: Concept by Concept
+
 ```
 datatypes.py → operators.py → if-else_operations.py → forloop/ → FUNCTIONS/
 ```
+
 **Time:** Flexible | **Covers:** Deep understanding
 
 ### Path 3: Project-First
+
 ```
 guessing_game/ → Learn required concepts → Build MINI_PROJECT/
 ```
+
 **Time:** Flexible | **Covers:** Real problem-solving
 
 ---
 
 ## 🎯 Key Files to Know
 
-| File | What It Does | Run It |
-|------|-------------|--------|
-| `datatypes.py` | Learn data types | `python datatypes.py` |
-| `operators.py` | Learn operators | `python operators.py` |
-| `if-else_operations.py` | Learn conditionals | `python if-else_operations.py` |
-| `forloop/forloop.ipynb` | Learn for loops | `jupyter notebook forloop/forloop.ipynb` |
-| `FUNCTIONS/built_in_function.ipynb` | Learn functions | `jupyter notebook FUNCTIONS/built_in_function.ipynb` |
-| `challenge/DAY 1/` | Day 1 practice | Follow instructions in folder |
+| File                                | What It Does       | Run It                                               |
+| ----------------------------------- | ------------------ | ---------------------------------------------------- |
+| `datatypes.py`                      | Learn data types   | `python datatypes.py`                                |
+| `operators.py`                      | Learn operators    | `python operators.py`                                |
+| `if-else_operations.py`             | Learn conditionals | `python if-else_operations.py`                       |
+| `forloop/forloop.ipynb`             | Learn for loops    | `jupyter notebook forloop/forloop.ipynb`             |
+| `FUNCTIONS/built_in_function.ipynb` | Learn functions    | `jupyter notebook FUNCTIONS/built_in_function.ipynb` |
+| `challenge/DAY 1/`                  | Day 1 practice     | Follow instructions in folder                        |
 
 ---
 
@@ -108,13 +114,13 @@ python main.py
 
 ## 🐛 Common Issues? Quick Fixes
 
-| Problem | Fix |
-|---------|-----|
-| "python: command not found" | Install Python from [python.org](https://www.python.org/) |
-| "venv not activating" | Use full path: `source /full/path/venv/bin/activate` |
-| "ModuleNotFoundError: jupyter" | Run: `pip install jupyter` |
-| "Can't run .py files" | Make sure you're in the repo folder: `cd python-basics` |
-| "Port 8888 already in use" | Use: `jupyter notebook --port 8889` |
+| Problem                        | Fix                                                       |
+| ------------------------------ | --------------------------------------------------------- |
+| "python: command not found"    | Install Python from [python.org](https://www.python.org/) |
+| "venv not activating"          | Use full path: `source /full/path/venv/bin/activate`      |
+| "ModuleNotFoundError: jupyter" | Run: `pip install jupyter`                                |
+| "Can't run .py files"          | Make sure you're in the repo folder: `cd python-basics`   |
+| "Port 8888 already in use"     | Use: `jupyter notebook --port 8889`                       |
 
 **Still stuck?** See [SETUP.md](SETUP.md) for detailed help.
 
@@ -164,4 +170,3 @@ deactivate
 **That's it! You're ready to learn Python!** 🐍
 
 Start with the 5-Day Challenge or pick a concept from the files listed above.
-

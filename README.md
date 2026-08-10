@@ -39,6 +39,7 @@
 This is a **comprehensive Python learning resource** designed for absolute beginners who want to master Python fundamentals through structured practice and real-world projects.
 
 Unlike typical tutorials, this repository combines:
+
 - 📚 **Well-organized concept files** with clear explanations
 - 🎯 **5-Day structured learning challenge**
 - 💻 **Interactive Jupyter notebooks** for hands-on learning
@@ -52,17 +53,17 @@ Unlike typical tutorials, this repository combines:
 
 ## ✨ Key Features
 
-| Feature | Details |
-|---------|---------|
-| 🎓 **Structured Learning** | 5-day challenge with clear progression |
+| Feature                       | Details                                                |
+| ----------------------------- | ------------------------------------------------------ |
+| 🎓 **Structured Learning**    | 5-day challenge with clear progression                 |
 | 📚 **Comprehensive Coverage** | Variables, loops, functions, data structures, and more |
-| 💻 **Interactive Notebooks** | Jupyter notebooks for exploratory learning |
-| 🎯 **Real Projects** | Guessing game, mini-projects, and challenges |
-| 🔬 **Hands-On Practice** | 30+ practice problems with solutions |
-| 📝 **Well-Documented** | Every file includes clear comments and explanations |
-| 🌱 **Beginner-Friendly** | No prior programming experience required |
-| 🔄 **Actively Maintained** | Regular updates and improvements |
-| ✅ **VS Code Ready** | Includes `.vscode` configuration |
+| 💻 **Interactive Notebooks**  | Jupyter notebooks for exploratory learning             |
+| 🎯 **Real Projects**          | Guessing game, mini-projects, and challenges           |
+| 🔬 **Hands-On Practice**      | 30+ practice problems with solutions                   |
+| 📝 **Well-Documented**        | Every file includes clear comments and explanations    |
+| 🌱 **Beginner-Friendly**      | No prior programming experience required               |
+| 🔄 **Actively Maintained**    | Regular updates and improvements                       |
+| ✅ **VS Code Ready**          | Includes `.vscode` configuration                       |
 
 ---
 
@@ -195,13 +196,13 @@ python-basics/
 
 Follow a structured 5-day program with daily objectives:
 
-| Day | Topic | What You'll Learn | Time |
-|-----|-------|-------------------|------|
-| 1️⃣ | Variables & Types | Data types, I/O, PRINT | 2-3 hrs |
-| 2️⃣ | Conditionals | if/else, operators, logic | 2-3 hrs |
-| 3️⃣ | Loops Intro | for, while, range() | 2-3 hrs |
-| 4️⃣ | Nested Loops | Pattern printing, 2D loops | 2-3 hrs |
-| 5️⃣ | Functions | Definition, parameters, scope | 2-3 hrs |
+| Day | Topic             | What You'll Learn             | Time    |
+| --- | ----------------- | ----------------------------- | ------- |
+| 1️⃣  | Variables & Types | Data types, I/O, PRINT        | 2-3 hrs |
+| 2️⃣  | Conditionals      | if/else, operators, logic     | 2-3 hrs |
+| 3️⃣  | Loops Intro       | for, while, range()           | 2-3 hrs |
+| 4️⃣  | Nested Loops      | Pattern printing, 2D loops    | 2-3 hrs |
+| 5️⃣  | Functions         | Definition, parameters, scope | 2-3 hrs |
 
 **Total Time:** 10-15 hours to complete
 
@@ -238,6 +239,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 **Challenge:** Create a personal info program that takes input and displays it
 
 **Files to Complete:**
+
 - Read: `PRINT.py`, `datatypes.py`
 - Practice: `challenge/DAY 1/`
 
@@ -256,6 +258,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 **Challenge:** Build a grade calculator or age classifier
 
 **Files to Complete:**
+
 - Read: `if-else_operations.py`, `ConditionalExpression.py`
 - Practice: `challenge/DAY 2/`
 
@@ -273,6 +276,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 **Challenge:** Print multiplication tables or number patterns
 
 **Files to Complete:**
+
 - Explore: `forloop/forloop.ipynb`
 - Practice: `challenge/DAY 3/`
 
@@ -290,6 +294,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 **Challenge:** Print complex patterns (pyramid, diamond, etc.)
 
 **Files to Complete:**
+
 - Practice: `NESTLEDLOOP/`
 - Challenge: `challenge/DAY 4/`
 
@@ -308,6 +313,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 **Challenge:** Create utility functions and solve problems with them
 
 **Files to Complete:**
+
 - Study: `FUNCTIONS/built_in_function.ipynb`
 - Build: `challenge/DAY 5/`
 
@@ -316,6 +322,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 ## 📖 Comprehensive Topics Covered
 
 ### Fundamentals (Beginner)
+
 - ✅ Print statements and output formatting
 - ✅ Comments and code documentation
 - ✅ Variables and naming conventions
@@ -324,12 +331,14 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 - ✅ Indentation and syntax rules
 
 ### Operators (Beginner)
-- ✅ Arithmetic operators (+, -, *, /, //, %, **)
+
+- ✅ Arithmetic operators (+, -, \*, /, //, %, \*\*)
 - ✅ Comparison operators (==, !=, <, >, <=, >=)
 - ✅ Logical operators (and, or, not)
 - ✅ Assignment operators (=, +=, -=, etc.)
 
 ### Control Flow (Beginner → Intermediate)
+
 - ✅ if/elif/else statements
 - ✅ Nested conditionals
 - ✅ Ternary operators
@@ -339,6 +348,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 - ✅ break, continue, pass statements
 
 ### Functions (Intermediate)
+
 - ✅ Function definition and calling
 - ✅ Parameters and arguments
 - ✅ Return values
@@ -347,6 +357,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 - ✅ Built-in functions (len, range, sum, max, min, etc.)
 
 ### Data Structures (Intermediate)
+
 - ✅ Strings and string methods
 - ✅ String formatting (f-strings, .format())
 - ✅ Lists and list methods
@@ -355,6 +366,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 - ✅ Basic container operations
 
 ### Keywords & Concepts (Beginner)
+
 - ✅ Python keywords
 - ✅ Literals and literal types
 - ✅ Best practices
@@ -416,7 +428,7 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 ✅ **Experiment** — Modify examples to see what breaks  
 ✅ **Errors** — Read error messages carefully; they're helpful  
 ✅ **Notes** — Write your own explanations  
-✅ **Projects** — Apply concepts to real problems  
+✅ **Projects** — Apply concepts to real problems
 
 ---
 
@@ -425,15 +437,18 @@ Build guessing_game → Learn concepts → Build MINI_PROJECT → Create your ow
 ### Environment Issues
 
 **"python: command not found"**
+
 - Python not installed or not in PATH
 - Solution: [Install Python 3.8+](https://www.python.org/downloads/)
 
 **"ModuleNotFoundError"**
+
 ```bash
 pip install <module_name>
 ```
 
 **"Permission denied"**
+
 ```bash
 # On macOS/Linux, use Python directly
 python3 filename.py
@@ -442,16 +457,19 @@ python3 filename.py
 ### Code Issues
 
 **"IndentationError"**
+
 - Python requires consistent indentation (4 spaces)
 - Check your indentation levels
 - See: `Indentation.py`
 
 **"NameError: name 'x' is not defined"**
+
 - Variable used before definition
 - Check for typos (Python is case-sensitive)
 - Ensure variable is defined in the right scope
 
 **"SyntaxError"**
+
 - Missing colons after if/for/while/def
 - Missing closing parentheses/brackets
 - Check quotes and operators
@@ -459,12 +477,14 @@ python3 filename.py
 ### Jupyter Issues
 
 **Notebooks won't start**
+
 ```bash
 pip install jupyter --upgrade
 jupyter notebook
 ```
 
 **Kernel crashes**
+
 ```bash
 pip install ipykernel
 python -m ipykernel install --user
@@ -559,12 +579,14 @@ See [FAQ.md](FAQ.md) for more questions.
 This repository is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 **You can:**
+
 - ✅ Use commercially
 - ✅ Modify the code
 - ✅ Distribute
 - ✅ Private use
 
 **You must:**
+
 - ℹ️ Include license and copyright notice
 
 ---
@@ -613,6 +635,7 @@ Once you've mastered the fundamentals:
 ## Made with ❤️ for Python Learners
 
 **If this repository helped you, please consider:**
+
 - ⭐ Starring the repo
 - 📤 Sharing with others
 - 💬 Leaving feedback
@@ -620,5 +643,4 @@ Once you've mastered the fundamentals:
 
 ---
 
- 
 </div>

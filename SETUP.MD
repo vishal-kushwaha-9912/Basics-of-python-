@@ -17,12 +17,14 @@ Complete step-by-step guide to set up your Python learning environment.
 ## 📋 System Requirements
 
 ### Minimum Requirements
+
 - **OS:** Windows 10+, macOS 10.14+, or Linux
 - **RAM:** 4 GB
 - **Disk Space:** 500 MB
 - **Internet:** For downloading packages
 
 ### Recommended
+
 - **Python:** 3.10 or higher
 - **VS Code** with Python extension
 - **Jupyter** for interactive notebooks
@@ -52,6 +54,7 @@ Complete step-by-step guide to set up your Python learning environment.
 ### macOS
 
 **Option 1: Using Homebrew (Recommended)**
+
 ```bash
 # Install Homebrew if not already installed
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -64,6 +67,7 @@ python3 --version
 ```
 
 **Option 2: Direct Download**
+
 - Visit [python.org](https://www.python.org/downloads/)
 - Download macOS installer
 - Run and follow installation
@@ -182,21 +186,25 @@ where python           # Windows
 ### Using VS Code (Recommended)
 
 #### Step 1: Install VS Code
+
 - Download from [code.visualstudio.com](https://code.visualstudio.com/)
 - Install and open
 
 #### Step 2: Install Python Extension
+
 1. Open VS Code
 2. Go to Extensions (Ctrl+Shift+X / Cmd+Shift+X)
 3. Search "Python"
 4. Install official Python extension by Microsoft
 
 #### Step 3: Select Python Interpreter
+
 1. Press Ctrl+Shift+P (Cmd+Shift+P on Mac)
 2. Type "Python: Select Interpreter"
 3. Choose the one in `./venv` folder
 
 #### Step 4: Configure Settings
+
 Create or update `.vscode/settings.json`:
 
 ```json
@@ -286,6 +294,7 @@ jupyter notebook
 **Problem:** Python not installed or not in PATH
 
 **Solutions:**
+
 ```bash
 # Try python3 instead
 python3 --version
@@ -302,6 +311,7 @@ export PATH=$PATH:/usr/local/bin/python3
 **Problem:** Missing package/module
 
 **Solution:**
+
 ```bash
 # Ensure virtual environment is activated
 source venv/bin/activate
@@ -318,6 +328,7 @@ pip install jupyter
 **Problem:** Cannot write to directories
 
 **Solutions:**
+
 ```bash
 # Use --user flag
 pip install --user jupyter
@@ -332,6 +343,7 @@ pip install jupyter
 **Problem:** Can't activate venv
 
 **Solutions:**
+
 ```bash
 # Check if venv exists
 ls venv                   # macOS/Linux
@@ -352,6 +364,7 @@ source /full/path/to/venv/bin/activate
 **Problem:** Jupyter notebook command not working
 
 **Solutions:**
+
 ```bash
 # Reinstall Jupyter
 pip uninstall jupyter
@@ -369,6 +382,7 @@ jupyter --version
 **Problem:** "Address already in use" when starting Jupyter
 
 **Solution:**
+
 ```bash
 # Use different port
 jupyter notebook --port 8889
